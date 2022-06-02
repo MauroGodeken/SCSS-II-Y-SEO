@@ -27,6 +27,9 @@
     justify-content: end; } }
 
 .nav-link {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ffffef;
+  text-align: center;
   transition: none;
   color: #fffccb;
   font-weight: 800; }
@@ -48,7 +51,7 @@
     transform: none; } }
 
 #titulo {
-  font-family: 'Pangolin', cursive;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #ffffef;
   text-align: center;
   display: flex;
@@ -67,7 +70,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Pangolin', cursive;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #ffffef;
   text-align: center; }
   h2:hover,
@@ -77,7 +80,7 @@ h5 {
     text-shadow: 1px 1px 5px rgba(255, 50, 50, 0.5); }
 
 h2 {
-  font-size: 3REM; }
+  font-size: 4REM; }
 
 h3 {
   font-size: 2REM; }
@@ -207,7 +210,7 @@ h5 {
   text-transform: uppercase;
   border-radius: 50px; }
   #suscripcion a {
-    font-family: 'Pangolin', cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #ffffef;
     text-align: center;
     transition: 1s;
@@ -288,47 +291,6 @@ h5 {
 .footer_container {
   grid-area: footer_container; }
 
-@media (max-width: 768px) {
-  .grid_container {
-    display: grid;
-    grid-template-columns: 0.2fr 2.6fr 0.2fr;
-    grid-template-rows: repeat(2, 0.01fr) 3.1fr 0.01fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". navbar_container ." ". titulo_container ." ". main_container ." ". footer_container ."; }
-  .titulo_container {
-    grid-area: titulo_container; }
-  .navbar_container {
-    grid-area: navbar_container; }
-  .main_container {
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: repeat(9, 1fr);
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". producto11 ." ". producto12 ." ". producto13 ." ". producto21 ." ". producto22 ." ". producto23 ." ". producto31 ." ". producto32 ." ". producto33 .";
-    grid-area: main_container; }
-  .producto11, .producto12, .producto13, .producto21, .producto22, .producto23, .producto31, .producto32, .producto33 {
-    grid-area: producto11; }
-  .producto12 {
-    grid-area: producto12; }
-  .producto13 {
-    grid-area: producto13; }
-  .producto21 {
-    grid-area: producto21; }
-  .producto22 {
-    grid-area: producto22; }
-  .producto23 {
-    grid-area: producto23; }
-  .producto31 {
-    grid-area: producto31; }
-  .producto32 {
-    grid-area: producto32; }
-  .producto33 {
-    grid-area: producto33; }
-  .footer_container {
-    grid-area: footer_container; } }
-
 .main_container {
   text-align: center; }
   .main_container p {
@@ -387,11 +349,55 @@ h5 {
   background-color: #fffadb;
   border-top: 3px black solid; }
 
+@media (max-width: 768px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 0.2fr 2.6fr 0.2fr;
+    grid-template-rows: repeat(2, 0.01fr) 3.1fr 0.01fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: ". navbar_container ." ". titulo_container ." ". main_container ." ". footer_container ."; }
+  .titulo_container {
+    grid-area: titulo_container; }
+  .navbar_container {
+    grid-area: navbar_container; }
+  .main_container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: repeat(9, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: ". producto11 ." ". producto12 ." ". producto13 ." ". producto21 ." ". producto22 ." ". producto23 ." ". producto31 ." ". producto32 ." ". producto33 .";
+    grid-area: main_container; }
+  .producto11, .producto12, .producto13, .producto21, .producto22, .producto23, .producto31, .producto32, .producto33 {
+    grid-area: producto11; }
+  .producto12 {
+    grid-area: producto12; }
+  .producto13 {
+    grid-area: producto13; }
+  .producto21 {
+    grid-area: producto21; }
+  .producto22 {
+    grid-area: producto22; }
+  .producto23 {
+    grid-area: producto23; }
+  .producto31 {
+    grid-area: producto31; }
+  .producto32 {
+    grid-area: producto32; }
+  .producto33 {
+    grid-area: producto33; }
+  .footer_container {
+    grid-area: footer_container; } }
+
 body {
   background-color: black; }
 
 p {
-  color: #ffffea; }
+  color: #ffffea;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ffffef;
+  text-align: center; }
 
 .navbar-toggler-icon {
   background-color: rgba(255, 255, 255, 0.1);
