@@ -42,16 +42,9 @@
 }
 
 .form__comentarios {
-
-
-    width: 50%;
-    background: rgb(182, 179, 179);
-    border-top: 3px rgb(92, 4, 4) solid;
-    box-shadow: 5px 5px $colorBoxShadow ;
+    @extend .form__input;    
     resize: none;
-    flex-wrap: wrap;
-    margin: 10px;
-
+    
 
     &:focus {
         background-color: $colorBackgroundFocus;
@@ -60,15 +53,8 @@
 }
 
 .form__select {
-
-    width: 50%;
-    margin: 10px;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
-    background: rgb(185, 184, 184);
-    border-top: 3px rgb(92, 4, 4) solid;
-    flex-wrap: wrap;
-
-
+@extend .form__input;
+    
 
     &:focus {
         background-color: $colorBackgroundFocus;

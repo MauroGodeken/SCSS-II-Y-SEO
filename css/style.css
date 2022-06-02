@@ -365,7 +365,7 @@ h5 {
     box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap; }
 
-.form__input {
+.form__input, .form__comentarios, .form__select {
   width: 50%;
   padding: 8px;
   margin: 10px;
@@ -373,32 +373,19 @@ h5 {
   background: #b6b3b3;
   box-shadow: 5px 5px black;
   flex-wrap: wrap; }
-  .form__input:focus {
+  .form__input:focus, .form__comentarios:focus, .form__select:focus {
     background-color: #fffadb;
     border-top: 3px black solid; }
 
 .form__comentarios {
-  width: 50%;
-  background: #b6b3b3;
-  border-top: 3px #5c0404 solid;
-  box-shadow: 5px 5px black;
-  resize: none;
-  flex-wrap: wrap;
-  margin: 10px; }
+  resize: none; }
   .form__comentarios:focus {
     background-color: #fffadb;
     border-top: 5px black solid; }
 
-.form__select {
-  width: 50%;
-  margin: 10px;
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
-  background: #b9b8b8;
-  border-top: 3px #5c0404 solid;
-  flex-wrap: wrap; }
-  .form__select:focus {
-    background-color: #fffadb;
-    border-top: 3px black solid; }
+.form__select:focus {
+  background-color: #fffadb;
+  border-top: 3px black solid; }
 
 body {
   background-color: black; }
