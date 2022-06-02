@@ -61,106 +61,43 @@
 }
 
 .producto12 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "producto__titulo"
-        "producto__imagen"
-        "producto__footer";
+    @extend .producto11;
+    
     grid-area: producto12;
 }
 
 .producto13 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "producto__titulo"
-        "producto__imagen"
-        "producto__footer";
+    @extend .producto11;
     grid-area: producto13;
 }
 
 .producto21 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "producto__titulo"
-        "producto__imagen"
-        "producto__footer";
+    @extend .producto11;
     grid-area: producto21;
 }
 
 .producto22 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "producto__titulo"
-        "producto__imagen"
-        "producto__footer";
+    @extend .producto11;
     grid-area: producto22;
 }
 
 .producto23 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "producto__titulo"
-        "producto__imagen"
-        "producto__footer";
+    @extend .producto11;
     grid-area: producto23;
 }
 
 .producto31 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "producto__titulo"
-        "producto__imagen"
-        "producto__footer";
+    @extend .producto11;
     grid-area: producto31;
 }
 
 .producto32 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "producto__titulo"
-        "producto__imagen"
-        "producto__footer";
+    @extend .producto11;
     grid-area: producto32;
 }
 
 .producto33 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "producto__titulo"
-        "producto__imagen"
-        "producto__footer";
+    @extend .producto11;
     grid-area: producto33;
 }
 

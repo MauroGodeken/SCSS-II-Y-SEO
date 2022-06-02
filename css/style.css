@@ -243,7 +243,7 @@ h5 {
   grid-template-areas: "producto11 producto12 producto13" "producto21 producto22 producto23" "producto31 producto32 producto33";
   grid-area: main_container; }
 
-.producto11 {
+.producto11, .producto12, .producto13, .producto21, .producto22, .producto23, .producto31, .producto32, .producto33 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.4fr 2.2fr 0.4fr;
@@ -262,75 +262,27 @@ h5 {
   grid-area: producto__footer; }
 
 .producto12 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.4fr 2.2fr 0.4fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "producto__titulo" "producto__imagen" "producto__footer";
   grid-area: producto12; }
 
 .producto13 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.4fr 2.2fr 0.4fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "producto__titulo" "producto__imagen" "producto__footer";
   grid-area: producto13; }
 
 .producto21 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.4fr 2.2fr 0.4fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "producto__titulo" "producto__imagen" "producto__footer";
   grid-area: producto21; }
 
 .producto22 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.4fr 2.2fr 0.4fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "producto__titulo" "producto__imagen" "producto__footer";
   grid-area: producto22; }
 
 .producto23 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.4fr 2.2fr 0.4fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "producto__titulo" "producto__imagen" "producto__footer";
   grid-area: producto23; }
 
 .producto31 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.4fr 2.2fr 0.4fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "producto__titulo" "producto__imagen" "producto__footer";
   grid-area: producto31; }
 
 .producto32 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.4fr 2.2fr 0.4fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "producto__titulo" "producto__imagen" "producto__footer";
   grid-area: producto32; }
 
 .producto33 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.4fr 2.2fr 0.4fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "producto__titulo" "producto__imagen" "producto__footer";
   grid-area: producto33; }
 
 .footer_container {
@@ -356,7 +308,7 @@ h5 {
     grid-auto-flow: row;
     grid-template-areas: ". producto11 ." ". producto12 ." ". producto13 ." ". producto21 ." ". producto22 ." ". producto23 ." ". producto31 ." ". producto32 ." ". producto33 .";
     grid-area: main_container; }
-  .producto11 {
+  .producto11, .producto12, .producto13, .producto21, .producto22, .producto23, .producto31, .producto32, .producto33 {
     grid-area: producto11; }
   .producto12 {
     grid-area: producto12; }
