@@ -48,12 +48,12 @@
     transform: none; } }
 
 #titulo {
+  font-family: 'Pangolin', cursive;
+  color: #ffffef;
+  text-align: center;
   display: flex;
   justify-content: center;
   font-size: 7vw;
-  color: #ffffef;
-  font-family: 'Pangolin', cursive;
-  text-align: center;
   background: linear-gradient(to left, black, #707070);
   border-bottom: 10px #161616 dashed;
   border-top: 10px #161616 dashed;
@@ -76,8 +76,17 @@ h5 {
   h5:hover {
     text-shadow: 1px 1px 5px rgba(255, 50, 50, 0.5); }
 
+h2 {
+  font-size: 3REM; }
+
 h3 {
-  font-size: 1rem; }
+  font-size: 2REM; }
+
+h4 {
+  font-size: 1REM; }
+
+h5 {
+  font-size: 0.75REM; }
 
 /*videos index*/
 .video1 {

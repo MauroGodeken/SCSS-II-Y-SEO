@@ -1,18 +1,33 @@
 @import'./colores';
 
-@mixin fontStyle{
+@mixin fontStyle {
     font-family: 'Pangolin', cursive;
     color: $colorLetras;
     text-align: center;
 
 }
+
+    $headings: (
+    h1: 7vw,
+    h2: 3REM,
+    h3: 2REM,
+    h4: 1REM,
+    h5: 0.75REM,
+    h6: 0.50REM,
+);
+    $h1: map-get($headings , h1 );
+    $h2: map-get($headings , h2 );
+    $h3: map-get($headings , h3 );
+    $h4: map-get($headings , h4 );
+    $h5: map-get($headings , h5 );
+    $h6: map-get($headings , h6 );
+
+
 #titulo {
+    @include fontStyle();
     display: flex;
     justify-content: center;
-    font-size: 7vw;
-    color: $colorLetras;
-    font-family: 'Pangolin', cursive;
-    text-align: center;
+    font-size: $h1;    
     background: linear-gradient(to left, rgb(0, 0, 0), rgb(112, 112, 112));
     border-bottom: 10px rgb(22, 22, 22) dashed;
     border-top: 10px rgb(22, 22, 22) dashed;
@@ -37,11 +52,19 @@ h5 {
         text-shadow: 1px 1px 5px $colorTextShadow ;
     }
 }
-h3{
-    font-size: 1rem
+h2{
+    font-size: $h2;
 }
-
-@mixin fontStyle{
+h3 {
+    font-size: $h3;
+}
+h4{
+    font-size: $h4;
+}
+h5{
+    font-size: $h5;
+}
+@mixin fontStyle {
     font-family: 'Pangolin', cursive;
     color: $colorLetras;
     text-align: center;
