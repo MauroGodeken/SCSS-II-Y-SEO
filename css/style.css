@@ -76,6 +76,9 @@ h5 {
   h5:hover {
     text-shadow: 1px 1px 5px rgba(255, 50, 50, 0.5); }
 
+h3 {
+  font-size: 1rem; }
+
 /*videos index*/
 .video1 {
   display: flex;
