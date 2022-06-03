@@ -5,6 +5,7 @@
     color: $colorLinksHover;
 
 }
+
 /*Suscripción*/
 #suscripcion {
     display: flex;
@@ -21,19 +22,26 @@
     border-radius: 50px;
 
     a {
-       @include fontStyle;
+        @include fontStyle;
         transition: 1s;
         text-decoration: none;
-       
+
 
         ;
 
         &:hover {
-            
+
             @include linkHover;
             text-decoration: overline;
             font-weight: bold;
             transform: scale(1.2);
         }
     }
+}
+
+.instagram,
+.twitter,
+.spotify {
+    color: $colorLinks;
+
 }

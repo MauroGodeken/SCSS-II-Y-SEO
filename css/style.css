@@ -222,6 +222,11 @@ h5 {
       font-weight: bold;
       transform: scale(1.2); }
 
+.instagram,
+.twitter,
+.spotify {
+  color: #fffccb; }
+
 /*pagina de merch*/
 .grid_container {
   display: grid;
